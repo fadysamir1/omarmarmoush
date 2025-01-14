@@ -1,0 +1,100 @@
+/* Stile generale */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    background-color: #004aad;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #004aad;
+    margin-top: 20px;
+}
+
+/* Tabelle */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #004aad;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+/* Immagini */
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.local-img {
+    border: 3px solid #004aad;
+}
+
+.web-img {
+    border: 3px solid #00aa00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #004aad;
+    color: white;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
